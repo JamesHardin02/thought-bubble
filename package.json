@@ -1,0 +1,25 @@
+{
+  "name": "thought-bubble",
+  "version": "1.0.0",
+  "description": "A backend for a social media site where users can share their thoughts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesHardin02/thought-bubble.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesHardin02/thought-bubble/issues"
+  },
+  "homepage": "https://github.com/JamesHardin02/thought-bubble#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
