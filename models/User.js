@@ -39,7 +39,7 @@ const userSchema = new Schema(
   }
 );
 
-// create virtual field for amount of friends
+// create virtual field for amount of friends a user has
 userSchema.virtual('friendCount').get(function() {
   return this.friends.length
 });
