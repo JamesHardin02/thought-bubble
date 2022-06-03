@@ -3,7 +3,11 @@ const { User } = require('../models');
 const userController = {
   // get all Users
   getAllUsers(req, res) {
-    User.find({}) // populate with thoughts and friends
+    User.find({})
+      .populate({
+        path: 'thought',
+        select: '-__v'
+      }) // populate with thoughts
       .select('-__v') // removes __v from query
       .sort({ _id: -1 }) // descending order
       .then(dbUserData => res.json(dbUserData))
@@ -15,7 +19,11 @@ const userController = {
 
   // get one User by id
   getUserById({ params }, res) {
-    User.findOne({ _id: params.id }) // populate with thoughts and friends
+    User.findOne({ _id: params.id })
+      .populate({ // populate with thoughts
+        path: 'thought',
+        select: '-__v'
+      }) 
       .select('-__v') // removes __v from query
       .then(dbUserData => {
         if (!dbUserData) {
