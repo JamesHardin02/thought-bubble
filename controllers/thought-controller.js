@@ -84,7 +84,7 @@ const ThoughtController = {
         }
         return User.findOneAndUpdate( // finds user who made the thought
           { _id: params.userId },
-          { $pull: { Thoughts: params.thoughtId } },// removes the thought from the user
+          { $pull: { thoughts: params.thoughtId } },// removes the thought from the user
           { new: true }
         );
       })

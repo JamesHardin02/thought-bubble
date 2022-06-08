@@ -21,7 +21,7 @@ const userController = {
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
       .populate({ // populate with thoughts
-        path: 'thought',
+        path: 'thoughts',
         select: '-__v'
       }) 
       .select('-__v') // removes __v from query
