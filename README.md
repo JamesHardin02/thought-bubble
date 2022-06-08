@@ -26,7 +26,9 @@ creating a thought from that user
 
 ## Walkthrough
 Part 1
+
 https://user-images.githubusercontent.com/98061516/172695424-b2ea38a6-ce78-45c9-a1d4-ef3e7b14d322.mp4
 
 Part 2
+
 https://user-images.githubusercontent.com/98061516/172697797-53a028b7-eb6e-4bb4-baf8-eec688187040.mp4
