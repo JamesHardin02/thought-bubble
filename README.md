@@ -25,3 +25,8 @@ creating a thought from that user
 ![thought-bubble-post-thought](https://user-images.githubusercontent.com/98061516/171949161-6906d9fe-fced-4a7f-be8c-087aefa5d1f4.png)
 
 ## Walkthrough
+Part 1
+https://user-images.githubusercontent.com/98061516/172695424-b2ea38a6-ce78-45c9-a1d4-ef3e7b14d322.mp4
+
+Part 2
+https://user-images.githubusercontent.com/98061516/172695484-80942e53-d535-4514-9fb1-0d41b3f634ce.mp4
